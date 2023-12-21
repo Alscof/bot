@@ -1,8 +1,8 @@
 import streamlit as st
 import openai
 import os
-import Together
-import Anyscale
+import together
+import anyscale
 
 os.environ[ "OPENAI_BASE_URL"] ='https://api.endpoints.anyscale.com/v1'
 # Set your OpenAI API key here
